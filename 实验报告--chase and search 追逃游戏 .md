@@ -143,15 +143,17 @@
 
 ![114f28730c1c327a78d0513f9eefa1b](C:\Users\m1856\Desktop\pic\114f28730c1c327a78d0513f9eefa1b.png)
 
-![c2765e64fde4e1e4ce8a3e311d563f9](C:\Users\m1856\Desktop\pic\c2765e64fde4e1e4ce8a3e311d563f9.png)
+![c2765e64fde4e1e4ce8a3e311d563f9](c2765e64fde4e1e4ce8a3e311d563f9.png)
 
-![969d0f4c5fca710350048eb9bddd723](C:\Users\m1856\Desktop\pic\969d0f4c5fca710350048eb9bddd723.png)
+![969d0f4c5fca710350048eb9bddd723](969d0f4c5fca710350048eb9bddd723.png)
 
 ...
 
 ### 三、展示项目，demo
 
 我们的项目分为直接运行版和原始版，直接运行版是unity导出的直接使用的exe执行文件，可以进行大屏的游戏体验，原始版需要您匹配好版本即可在city的scene找到场景后开始执行。我们的项目文档同时开源在giyhub,使用运行文件以云盘链接形式展现在网页中（不放代码，仅可执行）。
-
-
+**
+通过百度网盘分享的文件：Game.zip
+链接：https://pan.baidu.com/s/1wQXFClVKxbQ3UAArgEzKJg?pwd=2412 
+提取码：2412**
 
