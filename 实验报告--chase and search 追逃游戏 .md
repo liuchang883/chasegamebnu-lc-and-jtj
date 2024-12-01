@@ -1,4 +1,4 @@
-![image-20241121181213352](C:\Users\m1856\AppData\Roaming\Typora\typora-user-images\image-20241121181213352.png)
+![image-20241121181213352](image-20241121181213352.png)
 
 # **实验报告**--chase and search 追逃游戏 
 
@@ -28,19 +28,19 @@
 
 **白天城市俯视图效果：**
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241121182410048.png" alt="image-20241121182410048" style="zoom: 80%;" />
+<img src="image-20241121182410048.png" alt="image-20241121182410048" style="zoom: 80%;" />
 
 **黑夜城市俯视图：**
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241121183157957.png" alt="image-20241121183157957" style="zoom:80%;" />
+<img src="image-20241121183157957.png" alt="image-20241121183157957" style="zoom:80%;" />
 
 **细节展示：**
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241121183245542.png" alt="image-20241121183245542" style="zoom:80%;" />
+<img src="image-20241121183245542.png" alt="image-20241121183245542" style="zoom:80%;" />
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241121183414558.png" alt="image-20241121183414558" style="zoom:80%;" />
+<img src="image-20241121183414558.png" alt="image-20241121183414558" style="zoom:80%;" />
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241128084358815.png" alt="image-20241128084358815" style="zoom:80%;" />
+<img src="image-20241128084358815.png" alt="image-20241128084358815" style="zoom:80%;" />
 
 ##### （2）skybox切换
 
@@ -48,11 +48,11 @@
 
 **材质文件分日期举例：**
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241121183759827.png" alt="image-20241121183759827" style="zoom:80%;" />
+<img src="image-20241121183759827.png" alt="image-20241121183759827" style="zoom:80%;" />
 
 **挂载观察：**
 
-<img src="C:\Users\m1856\Desktop\pic\image-20241121183921213.png" alt="image-20241121183921213" style="zoom:80%;" />
+<img src="image-20241121183921213.png" alt="image-20241121183921213" style="zoom:80%;" />
 
 **切换demo将在最终的演示文件或者实现的执行中观察到**
 
@@ -66,20 +66,20 @@
 
 我们为了使最终的游戏效果获得绝佳体验，我们使用了audioplayer，添加了21音乐循环播放，采用的音频是unity assets中的季节循环音乐，与场景、光源等相互匹配。
 
-<img src="C:\Users\m1856\Desktop\pic\8a2fab392056f01c952d505840c758c.png" alt="8a2fab392056f01c952d505840c758c" style="zoom:80%;" />
+<img src="8a2fab392056f01c952d505840c758c.png" alt="8a2fab392056f01c952d505840c758c" style="zoom:80%;" />
 
 ##### **（5）敌人、抓捕者（电脑端）动画逻辑的添加、制作和控制**
 
 针对这么可爱的主人公，我们选取了很多小怪作为追捕者，为避免一种怪物的单调性，我们选取了两种小怪，分别是小幽灵和小木乃伊，如下图展示，同时我们也制作了相对应的animation。虽然动画条件较少，但我们设计前后移动，包括木乃伊的跳跃前进，都使用脚本在最终逻辑中有所实现。
 
-![image-20241128093238570](C:\Users\m1856\Desktop\pic\image-20241128093238570.png)
+![image-20241128093238570](image-20241128093238570.png)
 
 <img src="C:\Users\m1856\Desktop\pic\image-20241128093311000.png" alt="image-20241128093311000" style="zoom: 50%;" />
 
 ##### （6）金币物品
 
 除此之外，为了配合下面将要介绍的游戏交互逻辑，我们还使用了好看的金币，选取的是海盗币模型，用以在追逃过程中给您补血、加速、甩开敌人等等，如图是我们的海盗币
-![image-20241128144728170](C:\Users\m1856\Desktop\pic\image-20241128144728170.png)
+![image-20241128144728170](image-20241128144728170.png)
 
 ##### **（7）交互逻辑**
 
@@ -91,57 +91,57 @@
 
 ###### （1）与小怪碰撞后扣血/弹飞/惨叫逻辑：
 
-![05ca977ad7d126a4e6780f9e0f23079](C:\Users\m1856\Desktop\pic\05ca977ad7d126a4e6780f9e0f23079.png)
+![05ca977ad7d126a4e6780f9e0f23079](05ca977ad7d126a4e6780f9e0f23079.png)
 
 ###### **（2）与boss碰撞后扣血/弹飞/惨叫逻辑（扣血变多，弹飞变多）（部分，详细见脚本）**：
 
-![d1f1e8d2a14aafcf0d64e2eb6ab02fe](C:\Users\m1856\Desktop\pic\d1f1e8d2a14aafcf0d64e2eb6ab02fe.png)
+![d1f1e8d2a14aafcf0d64e2eb6ab02fe](d1f1e8d2a14aafcf0d64e2eb6ab02fe.png)
 
 ###### （3）与血包（甜甜圈）碰撞后回血逻辑：
 
-![8ef67566b1d4bf927ffd15beee93657](C:\Users\m1856\Desktop\pic\8ef67566b1d4bf927ffd15beee93657.png)
+![8ef67566b1d4bf927ffd15beee93657](8ef67566b1d4bf927ffd15beee93657.png)
 
 ###### （4）与加速包（银海盗币）碰撞后加速逻辑：
 
-![aec5d9ac49dfaaaf7d061a9affd4fd9](C:\Users\m1856\Desktop\pic\aec5d9ac49dfaaaf7d061a9affd4fd9.png)
+![aec5d9ac49dfaaaf7d061a9affd4fd9](aec5d9ac49dfaaaf7d061a9affd4fd9.png)
 
 **（5）与反杀包（金海盗比）碰撞后可以反杀小怪逻辑，boss降级包（铜海盗币）碰撞后削弱boss为小怪逻辑**：
 
-![abdb99fa88a7dd07c824ecb858ab354](C:\Users\m1856\Desktop\pic\abdb99fa88a7dd07c824ecb858ab354.png)
+![abdb99fa88a7dd07c824ecb858ab354](abdb99fa88a7dd07c824ecb858ab354.png)
 
 ###### （6）具体改变tag实现：
 
-![6df62f51beecadb4a8e2e119bb4deb4](C:\Users\m1856\Desktop\pic\6df62f51beecadb4a8e2e119bb4deb4.png)
+![6df62f51beecadb4a8e2e119bb4deb4](6df62f51beecadb4a8e2e119bb4deb4.png)
 
 ###### （7）高处掉落扣血逻辑：
 
-![16d1f43bc44102c2862d52420e86351](C:\Users\m1856\Desktop\pic\16d1f43bc44102c2862d52420e86351.png)
+![16d1f43bc44102c2862d52420e86351](16d1f43bc44102c2862d52420e86351.png)
 
 ###### （8）更新血条逻辑：
 
-![3e623e7c160ab84c5760d62e1a3cbb1](C:\Users\m1856\Desktop\pic\3e623e7c160ab84c5760d62e1a3cbb1.png)
+![3e623e7c160ab84c5760d62e1a3cbb1](3e623e7c160ab84c5760d62e1a3cbb1.png)
 
-![ddf1303754bc99e4071497534fd992a](C:\Users\m1856\Desktop\pic\ddf1303754bc99e4071497534fd992a.png)
+![ddf1303754bc99e4071497534fd992a](ddf1303754bc99e4071497534fd992a.png)
 
 ###### （9）处理人物的前进、后退、转向逻辑，同时更新对应的动画状态（部分，详细见脚本）：
 
-![b3641e9e93319364296a8f35b2b28e2](C:\Users\m1856\Desktop\pic\b3641e9e93319364296a8f35b2b28e2.png)
+![b3641e9e93319364296a8f35b2b28e2](b3641e9e93319364296a8f35b2b28e2.png)
 
 ###### （10）后视照相机实现逻辑：
 
-![50b741da4972d5acf889e6e3e08020a](C:\Users\m1856\Desktop\pic\50b741da4972d5acf889e6e3e08020a.png)
+![50b741da4972d5acf889e6e3e08020a](50b741da4972d5acf889e6e3e08020a.png)
 
 ###### （11）更改天空逻辑：
 
-![07d1f1b53444f2749d79c5ab50e3545](C:\Users\m1856\Desktop\pic\07d1f1b53444f2749d79c5ab50e3545.png)
+![07d1f1b53444f2749d79c5ab50e3545](07d1f1b53444f2749d79c5ab50e3545.png)
 
 **结构总览：**
 
-![519db357cc0bc302b9bc17fe164e7c9](C:\Users\m1856\Desktop\pic\519db357cc0bc302b9bc17fe164e7c9.png)
+![519db357cc0bc302b9bc17fe164e7c9](519db357cc0bc302b9bc17fe164e7c9.png)
 
-![b9e0e00947ef8093863d3df83fa6da6](C:\Users\m1856\Desktop\pic\b9e0e00947ef8093863d3df83fa6da6.png)
+![b9e0e00947ef8093863d3df83fa6da6](b9e0e00947ef8093863d3df83fa6da6.png)
 
-![114f28730c1c327a78d0513f9eefa1b](C:\Users\m1856\Desktop\pic\114f28730c1c327a78d0513f9eefa1b.png)
+![114f28730c1c327a78d0513f9eefa1b](114f28730c1c327a78d0513f9eefa1b.png)
 
 ![c2765e64fde4e1e4ce8a3e311d563f9](c2765e64fde4e1e4ce8a3e311d563f9.png)
 
